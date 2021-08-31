@@ -21,6 +21,7 @@ jobs:
         architecture: 'x64'
     - run: |
         pip3 install -r requirements.txt
+        ulimit -s unlimited
         ./generate.py
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
