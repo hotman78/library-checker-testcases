@@ -44,6 +44,4 @@ def main():
         make_testcase(problem.parent.name,problem.name)
     make_toppage()
 if __name__ == '__main__':
-    # main()
-    make_testcase("datastructure","unionfind")
-    make_toppage()
+    main()
