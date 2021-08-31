@@ -16,15 +16,16 @@ def make_testcase(category,name):
     shutil.copytree("library-checker-problems/{0}/out".format(path),"build/{0}/out".format(path))
     params['problems'].setdefault(category,[])
     params['problems'][category].append(name)
-    make_problem_page(path)
+    make_problem_page(category,name)
 
-def make_problem_page(path):
-    problem_params={"dir":"{0}".format(path),"testcases":[]}
+def make_problem_page(category,name):
+    path=category+"/"+name
+    problem_params={"dir":"{0}".format(name),"testcases":[]}
     params=toml.load("library-checker-problems/{0}/info.toml".format(path))
     for cases in params["tests"]:
-        name='.'.join(cases["name"].split('.')[:-1])
+        casename='.'.join(cases["name"].split('.')[:-1])
         for i in range(0,int(cases["number"])):
-            problem_params["testcases"].append("{:s}_{:02d}".format(name,i))
+            problem_params["testcases"].append("{:s}_{:02d}".format(casename,i))
     tmpl = env.get_template('templates/problem.html')
     with open('build/{0}.html'.format(path), 'w') as f:
         f.write(tmpl.render(problem_params))
