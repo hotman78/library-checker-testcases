@@ -18,4 +18,4 @@ def main():
         main(problem.parent.name+"/"+problem.name)
 
 if __name__ == '__main__':
-    make_testcase("data_structure/unionfind")
+    make_testcase("datastructure/unionfind")
