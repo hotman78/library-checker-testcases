@@ -27,6 +27,7 @@ jobs:
       run: |
         cd library-checker-problems
         pip3 install -r requirements.txt
+        git config http.postBuffer 157286400
     - run: |
         ulimit -s unlimited
         ./main.py
