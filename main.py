@@ -59,6 +59,7 @@ def main():
     for x in tomls:
         problem=x.parent
         make_testcase(problem.parent.name,problem.name)
+        make_problem_page(problem.parent.name,problem.name)
     make_toppage()
     dump_hashlist()
 
@@ -67,12 +68,12 @@ def dump_hashlist():
         json.dump(hashlist, f, indent=4)
 
 if __name__ == '__main__':
-    make_testcase("graph","tree_diameter")
-    make_testcase("datastructure","unionfind")
-    make_testcase("datastructure","associative_array")
-    make_problem_page("graph","tree_diameter")
-    make_problem_page("datastructure","unionfind")
-    make_problem_page("datastructure","associative_array")
-    make_toppage()
-    dump_hashlist()
-    # main()
+    # make_testcase("graph","tree_diameter")
+    # make_testcase("datastructure","unionfind")
+    # make_testcase("datastructure","associative_array")
+    # make_problem_page("graph","tree_diameter")
+    # make_problem_page("datastructure","unionfind")
+    # make_problem_page("datastructure","associative_array")
+    # make_toppage()
+    # dump_hashlist()
+    main()
