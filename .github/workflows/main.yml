@@ -27,11 +27,24 @@ jobs:
       run: |
         cd library-checker-problems
         pip3 install -r requirements.txt
+    - run: |
         ulimit -s unlimited
-    - run: ./main.py
+        ./main.py
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: build
-
+        keep_files: true
+    - name: auto commit
+      run: |
+        git config --local user.email "hotmanww@gmail.com"
+        git config --local user.name "hotmanww"
+        git add .chache.json
+        git commit -m "[auto commit]"
+        git pull
+        git push origin main
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

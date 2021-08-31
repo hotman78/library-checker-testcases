@@ -6,11 +6,27 @@ import subprocess
 import shutil
 from pathlib import Path
 import toml
+import json
+import sys
 
-params={'problems':{}}
+params = {'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
+version_hash = subprocess.run("git rev-parse HEAD",shell=True,cwd="./library-checker-problems",stdout=subprocess.PIPE).stdout.decode()
+is_local = "--local" in sys.argv
+
+with open('.cache.json') as f:
+    hashlist = json.load(f)
+
 def make_testcase(category,name):
     path=category+"/"+name
+    tmp=path+('.local' if is_local else '.remote')
+    if ( tmp in hashlist ) and hashlist[tmp] == version_hash :
+        print("{} is chached.".format(tmp))
+        return
+    hashlist[tmp]=version_hash
+
+    if Path('build/{}'.format(path)).exists():
+        shutil.rmtree('build/{}'.format(path))
     subprocess.call("library-checker-problems/generate.py --test -p {0}".format(name),shell=True)
     shutil.copytree("library-checker-problems/{0}/in".format(path),"build/{0}/in".format(path))
     shutil.copytree("library-checker-problems/{0}/out".format(path),"build/{0}/out".format(path))
@@ -29,7 +45,6 @@ def make_problem_page(category,name):
     tmpl = env.get_template('templates/problem.html')
     with open('build/{0}.html'.format(path), 'w') as f:
         f.write(tmpl.render(problem_params))
-
 def make_toppage():
     tmpl = env.get_template('templates/index.html')
     with open('build/index.html', 'w') as f:
@@ -43,5 +58,15 @@ def main():
         problem=x.parent
         make_testcase(problem.parent.name,problem.name)
     make_toppage()
+    dump_hashlist()
+
+def dump_hashlist():
+    with open('.cache.json','w') as f:
+        json.dump(hashlist, f, indent=4)
+
 if __name__ == '__main__':
-    main()
+    make_testcase("graph","tree_diameter")
+    make_testcase("datastructure","unionfind")
+    make_toppage()
+    dump_hashlist()
+    # main()
