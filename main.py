@@ -2,10 +2,10 @@
 
 from re import A
 from jinja2 import Template, Environment, FileSystemLoader
-import json
 import subprocess
 import shutil
 from pathlib import Path
+import toml
 
 params={'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
@@ -20,8 +20,11 @@ def make_testcase(category,name):
 
 def make_problem_page(path):
     problem_params={"dir":"{0}".format(path),"testcases":[]}
-    for case in list(Path("build/{0}/in".format(path)).glob("*")):
-        problem_params["testcases"].append(case.name[:-3])
+    params=toml.load("library-checker-problems/{0}/info.toml".format(path))
+    for cases in params["tests"]:
+        name='.'.join(cases["name"].split('.')[:-1])
+        for i in range(0,int(cases["number"])):
+            problem_params["testcases"].append("{:s}_{:02d}".format(name,i))
     tmpl = env.get_template('templates/problem.html')
     with open('build/{0}.html'.format(path), 'w') as f:
         f.write(tmpl.render(problem_params))
