@@ -17,6 +17,7 @@ jobs:
     - name: Checkout other repo
       uses: actions/checkout@v2
       with:
+        path: library-checker-problems
         repository: yosupo06/library-checker-problems
     - uses: actions/setup-python@v2
       with:
@@ -24,8 +25,7 @@ jobs:
         architecture: 'x64'
     - name: ci
       run: |
-        ls
-        cwd
+        cd library-checker-problems
         pip3 install -r requirements.txt
         ulimit -s unlimited
     - name: Deploy website
