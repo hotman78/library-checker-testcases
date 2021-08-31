@@ -8,6 +8,7 @@ from pathlib import Path
 import toml
 import json
 import sys
+import os
 
 params = {'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
@@ -23,7 +24,6 @@ def make_testcase(category,name):
         print("{} is chached.".format(tmp))
         return
     hashlist[tmp]=version_hash
-
     if Path('build/{}'.format(path)).exists():
         shutil.rmtree('build/{}'.format(path))
     subprocess.call("library-checker-problems/generate.py --test -p {0}".format(name),shell=True)
@@ -42,6 +42,8 @@ def make_problem_page(category,name):
         for i in range(0,int(cases["number"])):
             problem_params["testcases"].append("{:s}_{:02d}".format(casename,i))
     tmpl = env.get_template('templates/problem.html')
+    if not Path("build/{}".format(category)).exists():
+        os.makedirs("build/{}".format(category))
     with open('build/{0}.html'.format(path), 'w') as f:
         f.write(tmpl.render(problem_params))
 
