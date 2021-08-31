@@ -12,7 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Checkout other repo
+      uses: actions/checkout@v2
       with:
         repository: yosupo06/library-checker-problems
     - uses: actions/setup-python@v2
