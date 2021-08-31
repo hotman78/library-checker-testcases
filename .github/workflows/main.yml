@@ -23,7 +23,7 @@ jobs:
       run: |
         pip3 install -r requirements.txt
         ulimit -s unlimited
-        ./generate.py -p *
+        ./generate.py -p $(find . -name "info.toml" -not -path "./test/*")
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
