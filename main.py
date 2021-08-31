@@ -67,6 +67,7 @@ def dump_hashlist():
 if __name__ == '__main__':
     make_testcase("graph","tree_diameter")
     make_testcase("datastructure","unionfind")
+    make_testcase("datastructure","associative_array")
     make_toppage()
     dump_hashlist()
     # main()
