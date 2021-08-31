@@ -40,7 +40,7 @@ jobs:
       run: |
         git config --local user.email "hotmanww@gmail.com"
         git config --local user.name "hotmanww"
-        git add .chache.json
+        git add .cache.json
         git commit -m "[auto commit]"
         git pull
         git push origin main
