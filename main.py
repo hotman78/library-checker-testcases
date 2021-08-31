@@ -32,7 +32,6 @@ def make_testcase(category,name):
     shutil.copytree("library-checker-problems/{0}/out".format(path),"build/{0}/out".format(path))
     params['problems'].setdefault(category,[])
     params['problems'][category].append(name)
-    make_problem_page(category,name)
 
 def make_problem_page(category,name):
     path=category+"/"+name
@@ -45,6 +44,7 @@ def make_problem_page(category,name):
     tmpl = env.get_template('templates/problem.html')
     with open('build/{0}.html'.format(path), 'w') as f:
         f.write(tmpl.render(problem_params))
+
 def make_toppage():
     tmpl = env.get_template('templates/index.html')
     with open('build/index.html', 'w') as f:
@@ -68,6 +68,9 @@ if __name__ == '__main__':
     make_testcase("graph","tree_diameter")
     make_testcase("datastructure","unionfind")
     make_testcase("datastructure","associative_array")
+    make_problem_page("graph","tree_diameter")
+    make_problem_page("datastructure","unionfind")
+    make_problem_page("datastructure","associative_array")
     make_toppage()
     dump_hashlist()
     # main()
