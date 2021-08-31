@@ -8,7 +8,7 @@
     {% for key,val in problems.items() %}
         <h1> {{ key }} </h1><br>
         {% for problem in val %}
-            <a href="library-checker-testcases/{{ key }}/{{ problem }}.html">{{ problem }}</a><br>
+            <a href="{{ key }}/{{ problem }}.html">{{ problem }}</a><br>
         {% endfor %}
     {% endfor %}
 </body>
