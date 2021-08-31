@@ -13,7 +13,6 @@ params = {'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
 version_hash = subprocess.run("git rev-parse HEAD",shell=True,cwd="./library-checker-problems",stdout=subprocess.PIPE).stdout.decode()
 is_local = "--local" in sys.argv
-
 with open('.cache.json') as f:
     hashlist = json.load(f)
 
@@ -30,14 +29,15 @@ def make_testcase(category,name):
     subprocess.call("library-checker-problems/generate.py --test -p {0}".format(name),shell=True)
     shutil.copytree("library-checker-problems/{0}/in".format(path),"build/{0}/in".format(path))
     shutil.copytree("library-checker-problems/{0}/out".format(path),"build/{0}/out".format(path))
-    params['problems'].setdefault(category,[])
-    params['problems'][category].append(name)
+
 
 def make_problem_page(category,name):
+    params['problems'].setdefault(category,[])
+    params['problems'][category].append(name)
     path=category+"/"+name
     problem_params={"dir":"{0}".format(name),"testcases":[]}
-    params=toml.load("library-checker-problems/{0}/info.toml".format(path))
-    for cases in params["tests"]:
+    tomls=toml.load("library-checker-problems/{0}/info.toml".format(path))
+    for cases in tomls["tests"]:
         casename='.'.join(cases["name"].split('.')[:-1])
         for i in range(0,int(cases["number"])):
             problem_params["testcases"].append("{:s}_{:02d}".format(casename,i))
