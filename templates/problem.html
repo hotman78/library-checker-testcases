@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>library-checker-testcases</title>
+</head>
+<body>
+    {% for testcase in testcases %}
+        <a href="{{ dir }}/in/{{ testcase }}.in">{{ testcase }}.in</a>|<a href="{{ dir }}/out/{{ testcase }}.out">{{ testcase }}.out</a><br>
+    {% endfor %}
+</body>
