@@ -29,7 +29,10 @@ def make_testcase(category,name):
     subprocess.call("library-checker-problems/generate.py --test -p {0}".format(name),shell=True)
     shutil.copytree("library-checker-problems/{0}/in".format(path),"build/{0}/in".format(path))
     shutil.copytree("library-checker-problems/{0}/out".format(path),"build/{0}/out".format(path))
-
+    for name in Path("build/{0}/in".format(path)).glob('*.in'):
+        shutil.move("build/{}/in/{}".format(path,name.name),'.'.join("build/{}/in/{}".format(path,name.name).split('.')[:-1])+".txt")
+    for name in Path("build/{0}/out".format(path)).glob('*.out'):
+        shutil.move("build/{}/out/{}".format(path,name.name),'.'.join("build/{}/out/{}".format(path,name.name).split('.')[:-1])+".txt")
 
 def make_problem_page(category,name):
     params['problems'].setdefault(category,[])
@@ -69,12 +72,12 @@ def dump_hashlist():
         json.dump(hashlist, f, indent=4)
 
 if __name__ == '__main__':
-    # make_testcase("graph","tree_diameter")
-    # make_testcase("datastructure","unionfind")
-    # make_testcase("datastructure","associative_array")
-    # make_problem_page("graph","tree_diameter")
-    # make_problem_page("datastructure","unionfind")
-    # make_problem_page("datastructure","associative_array")
-    # make_toppage()
-    # dump_hashlist()
-    main()
+    make_testcase("graph","tree_diameter")
+    make_testcase("datastructure","unionfind")
+    make_testcase("datastructure","associative_array")
+    make_problem_page("graph","tree_diameter")
+    make_problem_page("datastructure","unionfind")
+    make_problem_page("datastructure","associative_array")
+    make_toppage()
+    dump_hashlist()
+    # main()

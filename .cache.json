@@ -47,5 +47,8 @@
     "math/sum_of_totient_function.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/system_of_linear_equations.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/tetration_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/two_sat.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n"
+    "math/two_sat.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "graph/tree_diameter.local": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "datastructure/unionfind.local": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "datastructure/associative_array.local": "174da778b5e70991f9f1947b9e1460adddad4d9b\n"
 }
