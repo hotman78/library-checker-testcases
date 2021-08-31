@@ -54,12 +54,13 @@ def make_toppage():
 
 def main():
     tomls = list(filter(lambda p: not p.match('test/**/info.toml'),
-                            Path('.').glob('math/**/info.toml')))
+                            Path('.').glob('**/info.toml')))
     tomls = sorted(tomls, key=lambda x: x.parent.name)
     for x in tomls:
         problem=x.parent
-        make_testcase(problem.parent.name,problem.name)
-        make_problem_page(problem.parent.name,problem.name)
+        if problem.parent.name=='math':
+            make_testcase(problem.parent.name,problem.name)
+            make_problem_page(problem.parent.name,problem.name)
     make_toppage()
     dump_hashlist()
 
