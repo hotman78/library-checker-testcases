@@ -28,7 +28,7 @@ jobs:
         cd library-checker-problems
         pip3 install -r requirements.txt
         ulimit -s unlimited
-        ../main.py
+    - run: ./main.py
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
