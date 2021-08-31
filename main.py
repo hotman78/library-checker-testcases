@@ -19,7 +19,7 @@ def make_testcase(category,name):
     make_problem_page(path)
 
 def make_problem_page(path):
-    problem_params={"dir":"library-checker-problems/{0}".format(path),"testcases":[]}
+    problem_params={"dir":"{0}".format(path),"testcases":[]}
     for case in list(Path("build/{0}/in".format(path)).glob("*")):
         problem_params["testcases"].append(case.name[:-3])
     tmpl = env.get_template('templates/problem.html')
