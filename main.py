@@ -58,9 +58,9 @@ def main():
     tomls = sorted(tomls, key=lambda x: x.parent.name)
     for x in tomls:
         problem=x.parent
-        if problem.parent.name=='math':
+        if problem.parent.name=='datastructure':
             make_testcase(problem.parent.name,problem.name)
-            make_problem_page(problem.parent.name,problem.name)
+        make_problem_page(problem.parent.name,problem.name)
     make_toppage()
     dump_hashlist()
 
