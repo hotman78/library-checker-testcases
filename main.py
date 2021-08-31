@@ -54,7 +54,7 @@ def make_toppage():
 
 def main():
     tomls = list(filter(lambda p: not p.match('test/**/info.toml'),
-                            Path('.').glob('**/info.toml')))
+                            Path('.').glob('math/**/info.toml')))
     tomls = sorted(tomls, key=lambda x: x.parent.name)
     for x in tomls:
         problem=x.parent
