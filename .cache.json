@@ -103,5 +103,14 @@
     "graph/shortest_path.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/three_edge_connected_components.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/tree_decomposition_width_2.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "graph/two_edge_connected_components.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n"
+    "graph/two_edge_connected_components.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "sample/aplusb.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "geo/convex_layers.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/enumerate_palindromes.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "sample/many_aplusb.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/number_of_substrings.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/runenumerate.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "geo/sort_points_by_argument.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/suffixarray.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/zalgorithm.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n"
 }
