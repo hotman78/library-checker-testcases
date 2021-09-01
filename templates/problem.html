@@ -5,6 +5,7 @@
     <title>library-checker-testcases</title>
 </head>
 <body>
+    <a href="../">top</a><br><br>
     {% for testcase in testcases %}
         <a href="{{ dir }}/in/{{ testcase }}.txt">{{ testcase }}.in</a>|<a href="{{ dir }}/out/{{ testcase }}.txt">{{ testcase }}.out</a><br>
     {% endfor %}
