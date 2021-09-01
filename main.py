@@ -21,7 +21,7 @@ def make_testcase(category,name):
     path=category+"/"+name
     tmp=path+('.local' if is_local else '.remote')
     if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
-        print("{} is chached.".format(tmp))
+        print("{} is cached.".format(tmp))
         return
     hashlist[tmp]=version_hash
     if Path('build/{}'.format(path)).exists():
