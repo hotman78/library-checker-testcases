@@ -85,5 +85,5 @@ def main():
     dump_hashlist()
 
 if __name__ == '__main__':
-    test()
-    # main()
+    # test()
+    main()
