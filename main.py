@@ -20,7 +20,7 @@ with open('.cache.json') as f:
 def make_testcase(category,name):
     path=category+"/"+name
     tmp=path+('.local' if is_local else '.remote')
-    if ( tmp in hashlist ) and hashlist[tmp] == version_hash :
+    if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
         print("{} is chached.".format(tmp))
         return
     hashlist[tmp]=version_hash
@@ -59,6 +59,10 @@ def dump_hashlist():
     with open('.cache.json','w') as f:
         json.dump(hashlist, f, indent=4)
 
+def no_diff(preSHA,SHA,path):
+    res=subprocess.run("git diff {} {} --name-only  --relative={}".format(preSHA,SHA,path),shell=True,cwd="./library-checker-problems",stdout=subprocess.PIPE).stdout.decode()
+    return res==''
+
 def test():
     make_testcase("graph","tree_diameter")
     make_testcase("datastructure","unionfind")
@@ -81,4 +85,5 @@ def main():
     dump_hashlist()
 
 if __name__ == '__main__':
-    main()
+    test()
+    # main()
