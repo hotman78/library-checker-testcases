@@ -55,29 +55,30 @@ def make_toppage():
     with open('build/index.html', 'w') as f:
         f.write(tmpl.render(params))
 
+def dump_hashlist():
+    with open('.cache.json','w') as f:
+        json.dump(hashlist, f, indent=4)
+
+def test():
+    make_testcase("graph","tree_diameter")
+    make_testcase("datastructure","unionfind")
+    make_testcase("datastructure","associative_array")
+    make_problem_page("graph","tree_diameter")
+    make_problem_page("datastructure","unionfind")
+    make_problem_page("datastructure","associative_array")
+    make_toppage()
+    dump_hashlist()
+
 def main():
     tomls = list(filter(lambda p: not p.match('test/**/info.toml'),
                             Path('.').glob('**/info.toml')))
     tomls = sorted(tomls, key=lambda x: x.parent.name)
     for x in tomls:
         problem=x.parent
-        if problem.parent.name=='sample' or problem.parent.name=='geo' or problem.parent.name=='string':
-            make_testcase(problem.parent.name,problem.name)
+        make_testcase(problem.parent.name,problem.name)
         make_problem_page(problem.parent.name,problem.name)
     make_toppage()
     dump_hashlist()
 
-def dump_hashlist():
-    with open('.cache.json','w') as f:
-        json.dump(hashlist, f, indent=4)
-
 if __name__ == '__main__':
-    # make_testcase("graph","tree_diameter")
-    # make_testcase("datastructure","unionfind")
-    # make_testcase("datastructure","associative_array")
-    # make_problem_page("graph","tree_diameter")
-    # make_problem_page("datastructure","unionfind")
-    # make_problem_page("datastructure","associative_array")
-    # make_toppage()
-    # dump_hashlist()
     main()
