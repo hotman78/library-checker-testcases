@@ -61,7 +61,7 @@ def main():
     tomls = sorted(tomls, key=lambda x: x.parent.name)
     for x in tomls:
         problem=x.parent
-        if problem.parent.name=='graph':
+        if problem.parent.name=='sample' or problem.parent.name=='geo' or problem.parent.name=='string':
             make_testcase(problem.parent.name,problem.name)
         make_problem_page(problem.parent.name,problem.name)
     make_toppage()
