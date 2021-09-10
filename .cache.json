@@ -26,7 +26,6 @@
     "math/matrix_det.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/matrix_product.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/montmort_number_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/multipoint_evaluation.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/multivariate_convolution.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/nim_product_64.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/partition_function.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
