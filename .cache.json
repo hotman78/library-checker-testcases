@@ -31,7 +31,7 @@
     "math/partition_function.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/polynomial_interpolation.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/polynomial_taylor_shift.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/pow_of_formal_power_series.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "math/pow_of_formal_power_series.remote": "873a751cc4701d0b623cef12b7cd97c1bf539561\n",
     "math/sharp_p_subset_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/shift_of_sampling_points_of_polynomial.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/sparse_matrix_det.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
