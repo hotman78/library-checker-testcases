@@ -96,7 +96,7 @@
     "graph/k_shortest_walk.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/lca.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/manhattanmst.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "graph/maximum_independent_set.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "graph/maximum_independent_set.remote": "6f049b4b89b65556771a85077e788f3847ad5ec8\n",
     "graph/min_cost_b_flow.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/scc.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/shortest_path.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
