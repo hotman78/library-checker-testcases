@@ -87,7 +87,7 @@
     "graph/chromatic_number.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/cycle_detection.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/directedmst.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "graph/dominatortree.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "graph/dominatortree.remote": "1f4e47dca6f2dae654fc7f5c095ce46c6eeb4495\n",
     "graph/enumerate_triangles.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/frequency_table_of_tree_distance.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/general_matching.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
