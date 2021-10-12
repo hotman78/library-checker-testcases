@@ -112,5 +112,6 @@
     "geo/sort_points_by_argument.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "string/suffixarray.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "string/zalgorithm.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/multipoint_evaluation.remote": "dd9a997a5824f8a084c7bb80a7af4c641001e623\n"
+    "math/multipoint_evaluation.remote": "dd9a997a5824f8a084c7bb80a7af4c641001e623\n",
+    "datastructure/static_range_frequency.remote": "67f8efdb8d9cc7674f08b49d3778f6d5a191ab04\n"
 }
