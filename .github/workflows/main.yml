@@ -39,6 +39,7 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: build
         keep_files: true
+        allow_empty_commit: true
     - name: auto commit
       run: |
         if [[ `git diff .cache.json` != '' ]]; then
