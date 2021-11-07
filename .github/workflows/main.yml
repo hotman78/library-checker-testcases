@@ -29,6 +29,7 @@ jobs:
       run: |
         cd library-checker-problems
         pip3 install -r requirements.txt
+        git config --global http.version HTTP/1.1
         git config http.postBuffer 157286400
     - run: |
         ulimit -s unlimited
