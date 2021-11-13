@@ -36,7 +36,7 @@ jobs:
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
-        personal_token: ${{ secrets.library-checker-testcases }}
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
         publish_dir: build
         keep_files: true
         allow_empty_commit: true
