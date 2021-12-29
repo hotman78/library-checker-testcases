@@ -5,7 +5,7 @@
     "math/bitwise_xor_convolution.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/characteristic_polynomial.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/composition_of_formal_power_series.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/convolution_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "math/convolution_mod.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
     "math/convolution_mod_1000000007.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/convolution_mod_2_64.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/counting_primes.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
@@ -65,7 +65,7 @@
     "datastructure/point_add_range_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/point_add_rectangle_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/point_set_range_composite.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "datastructure/predecessor_problem.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "datastructure/predecessor_problem.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
     "datastructure/queue_operate_all_composite.remote": "0617f39843486ffdd8911b69ae900a399d9c1f8a\n",
     "datastructure/range_affine_range_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/range_chmin_chmax_add_range_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
@@ -114,5 +114,8 @@
     "string/zalgorithm.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/multipoint_evaluation.remote": "dd9a997a5824f8a084c7bb80a7af4c641001e623\n",
     "datastructure/static_range_frequency.remote": "67f8efdb8d9cc7674f08b49d3778f6d5a191ab04\n",
-    "math/convolution_mod_large.remote": "ignored\n"
+    "math/convolution_mod_large.remote": "ignored\n",
+    "math/mul_mod2n_convolution.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
+    "string/prefix_substring_lcs.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
+    "datastructure/static_range_lis_query.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n"
 }
