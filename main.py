@@ -20,6 +20,9 @@ with open('.cache.json') as f:
 def make_testcase(category,name):
     path=category+"/"+name
     tmp=path+('.local' if is_local else '.remote')
+    if ( tmp in hashlist ) and hashlist[tmp].rstrip('\n') == "ignored":
+        print("{} is ignored.".format(tmp))
+        return
     if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
         print("{} is cached.".format(tmp))
         return
