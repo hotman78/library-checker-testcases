@@ -91,7 +91,7 @@
     "graph/enumerate_triangles.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/frequency_table_of_tree_distance.remote": "66dd7aa7dc0fbd8b5488265bc778153f8eccb23d\n",
     "graph/general_matching.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "graph/general_weighted_matching.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "graph/general_weighted_matching.remote": "00fc43ca747b6488a7548c2fe219528b5b64aead\n",
     "graph/global_minimum_cut_of_dynamic_star_augmented_graph.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/k_shortest_walk.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "graph/lca.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
