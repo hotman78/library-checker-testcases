@@ -23,7 +23,7 @@
     "math/kth_root_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/kth_term_of_linearly_recurrent_sequence.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/log_of_formal_power_series.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/matrix_det.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "math/matrix_det.remote": "262a6e9a4a2f01a71bfed67d295ee291cfd397d5\n",
     "math/matrix_product.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/montmort_number_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/multivariate_convolution.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
@@ -117,5 +117,6 @@
     "math/convolution_mod_large.remote": "ignored\n",
     "math/mul_mod2n_convolution.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
     "string/prefix_substring_lcs.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
-    "datastructure/static_range_lis_query.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n"
+    "datastructure/static_range_lis_query.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
+    "math/matrix_det_arbitrary_mod.remote": "262a6e9a4a2f01a71bfed67d295ee291cfd397d5\n"
 }
