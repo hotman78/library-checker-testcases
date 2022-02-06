@@ -108,7 +108,7 @@
     "string/enumerate_palindromes.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "sample/many_aplusb.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "string/number_of_substrings.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "string/runenumerate.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
+    "string/runenumerate.remote": "bd40db5b8fbf5f0714e47029d5c7effcef14c70e\n",
     "geo/sort_points_by_argument.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "string/suffixarray.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "string/zalgorithm.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
@@ -118,5 +118,7 @@
     "math/mul_mod2n_convolution.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
     "string/prefix_substring_lcs.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
     "datastructure/static_range_lis_query.remote": "a2d2e3b89a756cd60f8d339ba7dc8147ae690d77\n",
-    "math/matrix_det_arbitrary_mod.remote": "262a6e9a4a2f01a71bfed67d295ee291cfd397d5\n"
+    "math/matrix_det_arbitrary_mod.remote": "262a6e9a4a2f01a71bfed67d295ee291cfd397d5\n",
+    "math/gcd_convolution.remote": "bd40db5b8fbf5f0714e47029d5c7effcef14c70e\n",
+    "math/lcm_convolution.remote": "bd40db5b8fbf5f0714e47029d5c7effcef14c70e\n"
 }
