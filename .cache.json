@@ -36,7 +36,7 @@
     "math/shift_of_sampling_points_of_polynomial.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/sparse_matrix_det.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/sqrt_mod.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
-    "math/sqrt_of_formal_power_series.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n",
+    "math/sqrt_of_formal_power_series.remote": "50435f89c61b5f6d9147456f2397f06a22cdc224\n",
     "math/stirling_number_of_the_first_kind.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/stirling_number_of_the_second_kind.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "math/subset_convolution.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
@@ -126,5 +126,6 @@
     "math/inv_of_formal_power_series_sparse.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n",
     "math/log_of_formal_power_series_sparse.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n",
     "math/pow_of_formal_power_series_sparse.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n",
-    "math/sqrt_of_formal_power_series_sparse.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n"
+    "math/sqrt_of_formal_power_series_sparse.remote": "50435f89c61b5f6d9147456f2397f06a22cdc224\n",
+    "datastructure/static_rectangle_add_rectangle_sum.remote": "50435f89c61b5f6d9147456f2397f06a22cdc224\n"
 }
