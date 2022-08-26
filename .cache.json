@@ -53,7 +53,7 @@
     "graph/tree_diameter.remote": "0617f39843486ffdd8911b69ae900a399d9c1f8a\n",
     "datastructure/unionfind.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/associative_array.remote": "22cc033a2e96425f4b425e7b14dfddbcc575e242\n",
-    "datastructure/dynamic_graph_vertex_add_component_sum.remote": "1d823a00ed857a6f9eb27245d812d7119f29c7c9\n",
+    "datastructure/dynamic_graph_vertex_add_component_sum.remote": "f25f070bcf96a21fced997293413f5e2d7fc41b3\n",
     "datastructure/dynamic_sequence_range_affine_range_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/dynamic_tree_subtree_add_subtree_sum.remote": "174da778b5e70991f9f1947b9e1460adddad4d9b\n",
     "datastructure/dynamic_tree_vertex_add_path_sum.remote": "88d22f1c9ed2fdf6ce6a7af5872d8871cc94adc8\n",
