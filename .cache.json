@@ -140,5 +140,6 @@
     "graph/rooted_tree_isomorphism_classification.remote": "594c207c4ec9e21cf6f343a60e48b18bf2932865\n",
     "math/stirling_number_of_the_first_kind_small_p_large_n.remote": "03a6836a7253842ae0c60148c863139cf2390469\n",
     "math/stirling_number_of_the_second_kind_small_p_large_n.remote": "03a6836a7253842ae0c60148c863139cf2390469\n",
-    "graph/vertex_add_range_contour_sum_on_tree.remote": "03a6836a7253842ae0c60148c863139cf2390469\n"
+    "graph/vertex_add_range_contour_sum_on_tree.remote": "03a6836a7253842ae0c60148c863139cf2390469\n",
+    "math/primitive_root.remote": "ec655dc9e9078e840ac0cb9429d89525f743c3c4\n"
 }
