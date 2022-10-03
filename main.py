@@ -14,6 +14,7 @@ params = {'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
 version_hash = subprocess.run("git rev-parse HEAD",shell=True,cwd="./library-checker-problems",stdout=subprocess.PIPE).stdout.decode()
 is_local = "--local" in sys.argv
+updated=False
 with open('.cache.json') as f:
     hashlist = json.load(f)
 
@@ -22,10 +23,13 @@ def make_testcase(category,name):
     tmp=path+('.local' if is_local else '.remote')
     if ( tmp in hashlist ) and hashlist[tmp].rstrip('\n') == "ignored":
         print("{} is ignored.".format(tmp))
-        return False
+        return
     if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
         print("{} is cached.".format(tmp))
-        return False
+        return
+    if updated:
+        print("{} become secondary.".format(tmp))
+        return
     hashlist[tmp]=version_hash
     if Path('build/{}'.format(path)).exists():
         shutil.rmtree('build/{}'.format(path))
@@ -36,7 +40,7 @@ def make_testcase(category,name):
         shutil.move("build/{}/in/{}".format(path,name.name),'.'.join("build/{}/in/{}".format(path,name.name).split('.')[:-1])+".txt")
     for name in Path("build/{0}/out".format(path)).glob('*.out'):
         shutil.move("build/{}/out/{}".format(path,name.name),'.'.join("build/{}/out/{}".format(path,name.name).split('.')[:-1])+".txt")
-    return True
+    updated=True
 
 def make_problem_page(category,name):
     params['problems'].setdefault(category,[])
@@ -85,8 +89,6 @@ def main():
         problem=x.parent
         changed=make_testcase(problem.parent.name,problem.name)
         make_problem_page(problem.parent.name,problem.name)
-        if changed:
-            break
     make_toppage()
     dump_hashlist()
 
