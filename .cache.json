@@ -128,7 +128,7 @@
     "math/pow_of_formal_power_series_sparse.remote": "80236109920655620ba56a0156bd7c1e465ca62b\n",
     "math/sqrt_of_formal_power_series_sparse.remote": "50435f89c61b5f6d9147456f2397f06a22cdc224\n",
     "datastructure/static_rectangle_add_rectangle_sum.remote": "88d22f1c9ed2fdf6ce6a7af5872d8871cc94adc8\n",
-    "graph/common_interval_decomposition_tree.remote": "594c207c4ec9e21cf6f343a60e48b18bf2932865\n",
+    "graph/common_interval_decomposition_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/deque_operate_all_composite.remote": "594c207c4ec9e21cf6f343a60e48b18bf2932865\n",
     "graph/enumerate_cliques.remote": "2e0e8e0e9780ed6b73b7d1a7cb3206a87dd16415\n",
     "graph/jump_on_tree.remote": "03a6836a7253842ae0c60148c863139cf2390469\n",
