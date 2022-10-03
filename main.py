@@ -22,10 +22,10 @@ def make_testcase(category,name):
     tmp=path+('.local' if is_local else '.remote')
     if ( tmp in hashlist ) and hashlist[tmp].rstrip('\n') == "ignored":
         print("{} is ignored.".format(tmp))
-        return false
+        return False
     if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
         print("{} is cached.".format(tmp))
-        return false
+        return False
     hashlist[tmp]=version_hash
     if Path('build/{}'.format(path)).exists():
         shutil.rmtree('build/{}'.format(path))
@@ -36,7 +36,7 @@ def make_testcase(category,name):
         shutil.move("build/{}/in/{}".format(path,name.name),'.'.join("build/{}/in/{}".format(path,name.name).split('.')[:-1])+".txt")
     for name in Path("build/{0}/out".format(path)).glob('*.out'):
         shutil.move("build/{}/out/{}".format(path,name.name),'.'.join("build/{}/out/{}".format(path,name.name).split('.')[:-1])+".txt")
-    return ture
+    return True
 
 def make_problem_page(category,name):
     params['problems'].setdefault(category,[])
