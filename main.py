@@ -30,6 +30,7 @@ def make_testcase(category,name):
     if updated:
         print("{} become secondary.".format(tmp))
         return
+    print("{} will be made.".format(tmp))
     hashlist[tmp]=version_hash
     if Path('build/{}'.format(path)).exists():
         shutil.rmtree('build/{}'.format(path))
