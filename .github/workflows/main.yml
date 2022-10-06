@@ -25,13 +25,14 @@ jobs:
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64'
-    - name: ci
+    - name: setup-python-settings
       run: |
         cd library-checker-problems
         pip3 install -r requirements.txt
         pip3 install toml
         git config http.postBuffer 1048576000
-    - run: |
+    - name: run job
+      run: |
         ulimit -s unlimited
         ./main.py
     - name: Deploy website
