@@ -19,6 +19,7 @@ with open('.cache.json') as f:
     hashlist = json.load(f)
 
 def make_testcase(category,name):
+    global updated
     path=category+"/"+name
     tmp=path+('.local' if is_local else '.remote')
     if ( tmp in hashlist ) and hashlist[tmp].rstrip('\n') == "ignored":
