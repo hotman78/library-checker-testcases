@@ -82,5 +82,15 @@
     "datastructure/persistent_unionfind.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/point_add_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/point_add_rectangle_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/point_set_range_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "datastructure/point_set_range_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/point_set_range_sort_range_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/polynomial_interpolation.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/polynomial_taylor_shift.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/pow_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/pow_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/predecessor_problem.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "string/prefix_substring_lcs.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/primitive_root.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/queue_operate_all_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/range_affine_point_get.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
