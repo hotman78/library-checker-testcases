@@ -62,5 +62,15 @@
     "math/log_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/log_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/longest_increasing_subsequence.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "graph/manhattanmst.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "graph/manhattanmst.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "sample/many_aplusb.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/matrix_det.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/matrix_det_arbitrary_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/matrix_product.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/maximum_independent_set.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/min_cost_b_flow.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/min_of_mod_of_linear.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/montmort_number_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/mul_mod2n_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/multipoint_evaluation.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
