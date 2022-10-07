@@ -102,5 +102,15 @@
     "graph/scc.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/segment_add_get_min.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/set_xor_min.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "math/sharp_p_subset_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "math/sharp_p_subset_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/shift_of_sampling_points_of_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/shortest_path.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "geo/sort_points_by_argument.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sparse_matrix_det.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sqrt_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sqrt_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sqrt_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/static_range_frequency.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/static_range_inversions_query.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/static_range_lis_query.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
