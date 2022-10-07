@@ -72,5 +72,15 @@
     "math/min_of_mod_of_linear.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/montmort_number_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/mul_mod2n_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "math/multipoint_evaluation.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "math/multipoint_evaluation.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/multivariate_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/nim_product_64.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/number_of_subsequences.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "string/number_of_substrings.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/partition_function.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/persistent_queue.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/persistent_unionfind.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/point_add_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/point_add_rectangle_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/point_set_range_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
