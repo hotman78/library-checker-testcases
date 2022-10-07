@@ -32,5 +32,15 @@
     "datastructure/dynamic_tree_subtree_add_subtree_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/dynamic_tree_vertex_add_path_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/dynamic_tree_vertex_add_subtree_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/dynamic_tree_vertex_set_path_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "datastructure/dynamic_tree_vertex_set_path_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/enumerate_cliques.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "string/enumerate_palindromes.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/enumerate_primes.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/enumerate_triangles.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/exp_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/exp_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/factorize.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/find_linear_recurrence.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/frequency_table_of_tree_distance.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/gcd_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
