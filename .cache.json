@@ -12,5 +12,15 @@
     "math/bitwise_xor_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/cartesian_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/characteristic_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "graph/chordal_graph_recognition.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "graph/chordal_graph_recognition.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/chromatic_number.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/common_interval_decomposition_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/composition_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "geo/convex_layers.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/convolution_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/convolution_mod_1000000007.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/convolution_mod_2_64.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/counting_primes.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/cycle_detection.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/deque_operate_all_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
