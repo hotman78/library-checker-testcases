@@ -2,5 +2,15 @@
     "math/convolution_mod_large.remote": "ignored\n",
     "sample/aplusb.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/assignment.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/associative_array.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "datastructure/associative_array.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/bernoulli_number.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/biconnected_components.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/binomial_coefficient.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/bipartite_edge_coloring.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/bipartitematching.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/bitwise_and_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/bitwise_xor_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/cartesian_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/characteristic_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/chordal_graph_recognition.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
