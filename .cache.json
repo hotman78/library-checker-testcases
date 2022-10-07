@@ -92,5 +92,15 @@
     "string/prefix_substring_lcs.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/primitive_root.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/queue_operate_all_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/range_affine_point_get.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "datastructure/range_affine_point_get.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/range_affine_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/range_chmin_chmax_add_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/range_kth_smallest.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/rectangle_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/rooted_tree_isomorphism_classification.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "string/runenumerate.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/scc.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/segment_add_get_min.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/set_xor_min.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sharp_p_subset_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
