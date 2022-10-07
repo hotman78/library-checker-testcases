@@ -122,5 +122,15 @@
     "math/stirling_number_of_the_second_kind_small_p_large_n.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/subset_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "string/suffixarray.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "math/sum_of_exponential_times_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "math/sum_of_exponential_times_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sum_of_exponential_times_polynomial_limit.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sum_of_floor_of_linear.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sum_of_totient_function.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/system_of_linear_equations.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/tetration_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/three_edge_connected_components.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/tree_decomposition_width_2.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/tree_diameter.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/two_edge_connected_components.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/two_sat.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
