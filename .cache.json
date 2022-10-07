@@ -42,5 +42,15 @@
     "math/factorize.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/find_linear_recurrence.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/frequency_table_of_tree_distance.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "math/gcd_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "math/gcd_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/general_matching.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/general_weighted_matching.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/global_minimum_cut_of_dynamic_star_augmented_graph.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/hafnian_of_matrix.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/inv_of_formal_power_series.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/inv_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/inv_of_polynomials.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/inverse_matrix.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/jump_on_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/k_shortest_walk.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
