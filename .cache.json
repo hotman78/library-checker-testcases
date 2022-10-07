@@ -112,5 +112,15 @@
     "math/sqrt_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/static_range_frequency.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/static_range_inversions_query.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/static_range_lis_query.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "datastructure/static_range_lis_query.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/static_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/static_rectangle_add_rectangle_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/staticrmq.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/stirling_number_of_the_first_kind.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/stirling_number_of_the_first_kind_small_p_large_n.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/stirling_number_of_the_second_kind.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/stirling_number_of_the_second_kind_small_p_large_n.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/subset_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "string/suffixarray.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/sum_of_exponential_times_polynomial.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
 }
