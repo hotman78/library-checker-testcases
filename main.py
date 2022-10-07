@@ -14,7 +14,7 @@ params = {'problems':{}}
 env = Environment(loader=FileSystemLoader('./', encoding='utf8'))
 version_hash = subprocess.run("git rev-parse HEAD",shell=True,cwd="./library-checker-problems",stdout=subprocess.PIPE).stdout.decode()
 is_local = "--local" in sys.argv
-updated=False
+updated=10
 with open('.cache.json') as f:
     hashlist = json.load(f)
 
@@ -28,7 +28,7 @@ def make_testcase(category,name):
     if ( tmp in hashlist ) and no_diff(hashlist[tmp].rstrip('\n'),version_hash.rstrip('\n'),path) :
         print("{} is cached.".format(tmp))
         return
-    if updated:
+    if updated==0:
         print("{} become secondary.".format(tmp))
         return
     print("{} will be made.".format(tmp))
@@ -42,7 +42,7 @@ def make_testcase(category,name):
         shutil.move("build/{}/in/{}".format(path,name.name),'.'.join("build/{}/in/{}".format(path,name.name).split('.')[:-1])+".txt")
     for name in Path("build/{0}/out".format(path)).glob('*.out'):
         shutil.move("build/{}/out/{}".format(path,name.name),'.'.join("build/{}/out/{}".format(path,name.name).split('.')[:-1])+".txt")
-    updated=True
+    updated-=1
 
 def make_problem_page(category,name):
     params['problems'].setdefault(category,[])
