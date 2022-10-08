@@ -138,5 +138,6 @@
     "graph/vertex_add_range_contour_sum_on_tree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/vertex_add_subtree_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/vertex_set_path_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "string/zalgorithm.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n"
+    "string/zalgorithm.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "datastructure/double_ended_priority_queue.remote": "07cbdcc8763e6bf20216fb34b49c170259e69056\n"
 }
