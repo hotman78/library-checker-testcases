@@ -25,7 +25,7 @@
     "datastructure/deque_operate_all_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/directedmst.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/discrete_logarithm_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "math/division_of_polynomials.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "math/division_of_polynomials.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n",
     "graph/dominatortree.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/dynamic_graph_vertex_add_component_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/dynamic_sequence_range_affine_range_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
@@ -41,7 +41,7 @@
     "math/exp_of_formal_power_series_sparse.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/factorize.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/find_linear_recurrence.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "graph/frequency_table_of_tree_distance.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/frequency_table_of_tree_distance.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n",
     "math/gcd_convolution.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/general_matching.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/general_weighted_matching.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
@@ -139,5 +139,5 @@
     "datastructure/vertex_add_subtree_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/vertex_set_path_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "string/zalgorithm.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/double_ended_priority_queue.remote": "07cbdcc8763e6bf20216fb34b49c170259e69056\n"
+    "datastructure/double_ended_priority_queue.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n"
 }
