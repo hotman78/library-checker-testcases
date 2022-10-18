@@ -21,7 +21,7 @@
     "math/convolution_mod_1000000007.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/convolution_mod_2_64.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/counting_primes.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "graph/cycle_detection.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
+    "graph/cycle_detection.remote": "73c23021d5da42486d38f56b4bcef80884f5414a\n",
     "datastructure/deque_operate_all_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "graph/directedmst.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "math/discrete_logarithm_mod.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
@@ -139,5 +139,6 @@
     "datastructure/vertex_add_subtree_sum.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/vertex_set_path_composite.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "string/zalgorithm.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
-    "datastructure/double_ended_priority_queue.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n"
+    "datastructure/double_ended_priority_queue.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n",
+    "graph/cycle_detection_undirected.remote": "73c23021d5da42486d38f56b4bcef80884f5414a\n"
 }
