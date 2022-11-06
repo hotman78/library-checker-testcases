@@ -141,5 +141,6 @@
     "string/zalgorithm.remote": "a12aab17ecf38d744b888ada05e5c1e17606bf78\n",
     "datastructure/double_ended_priority_queue.remote": "ce2ece17b25409dfc23f6b59d7eea98df0409a91\n",
     "graph/cycle_detection_undirected.remote": "4f85d0382d5133214adaebeed06d3038c03a89c5\n",
-    "datastructure/area_of_union_of_rectangles.remote": "4f85d0382d5133214adaebeed06d3038c03a89c5\n"
+    "datastructure/area_of_union_of_rectangles.remote": "4f85d0382d5133214adaebeed06d3038c03a89c5\n",
+    "math/product_of_polynomial_sequence.remote": "01b6caa7330755e228f1a6669bc83c8a3cf6da6f\n"
 }
